@@ -1,0 +1,551 @@
+ccid (1.4.23-1) unstable; urgency=medium
+
+  * New upstream release
+  * Fix "cleanup libusb when open fails" fixed upstream (Closes: #821787)
+  * Fix "pcscd takes 100 % cpu each time I insert a mass storage USB
+    key" fixed upstream (Closes: #812087)
+  * debian/control: use https:// for Vcs-Browser:
+    Fix lintian warning vcs-field-uses-insecure-uri vcs-browser
+  * debian/control: Standards-Version: 3.9.6 -> 3.9.8. No change needed.
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 20 Apr 2016 10:10:11 +0200
+
+ccid (1.4.22-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sun, 10 Jan 2016 14:49:44 +0100
+
+ccid (1.4.21-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 21 Oct 2015 20:45:19 +0200
+
+ccid (1.4.20-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control: Standards-Version: 3.9.5 -> 3.9.6. No change needed.
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 05 Aug 2015 13:28:29 +0200
+
+ccid (1.4.19-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 13 May 2015 09:52:58 +0200
+
+ccid (1.4.18-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sat, 13 Sep 2014 18:35:01 +0200
+
+ccid (1.4.17-1) unstable; urgency=low
+
+  * New upstream release
+  * Fix "regression: O2 Micro Oz776 no longer works" fixed upstream
+    (Closes: #742230)
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 11 Jun 2014 14:59:25 +0200
+
+ccid (1.4.16-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control: Standards-Version: 3.9.4 -> 3.9.5. No change needed.
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sun, 23 Mar 2014 16:38:06 +0100
+
+ccid (1.4.15-1) unstable; urgency=low
+
+  * debian/rules: build in parallel
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri, 14 Feb 2014 11:19:55 +0100
+
+ccid (1.4.14-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Mon, 25 Nov 2013 20:11:26 +0100
+
+ccid (1.4.13-1) unstable; urgency=low
+
+  * New upstream release
+    fix compilation on kFreeBSD
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 09 Oct 2013 13:00:45 +0200
+
+ccid (1.4.12-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: upgrade Build-Depends: libpcsclite-dev to 1.8.3 minimum
+  * debian/control: update Vcs-Svn: and Vcs-Browser: and use
+    anonscm.debian.org. Fixes lintian warning vcs-field-not-canonical
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Tue, 13 Aug 2013 00:02:07 +0200
+
+ccid (1.4.11-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/watch: update file. Thanks to Bart Martens
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 12 Jun 2013 14:22:38 +0200
+
+ccid (1.4.10-1) unstable; urgency=low
+
+  * New upstream release
+  * Fix "typo of Product ID for SCR3310-NTTCom USB SmartCard Reader in
+    92_pcscd_ccid.rules" fixed upstream (Closes: #704673)
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Tue, 16 Apr 2013 14:55:51 +0200
+
+ccid (1.4.9-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Standards-Version: 3.9.3 -> 3.9.4. No change needed.
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 16 Jan 2013 16:41:46 +0100
+
+ccid (1.4.8-1) unstable; urgency=low
+
+  * New upstream release
+  * Fix "Can't use NTTCom USB Smart Card Reader(0x04e6:0x511a)"
+    The reader is now supported upstream (Closes: #688999)
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sun, 07 Oct 2012 14:04:35 +0200
+
+ccid (1.4.7-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: remove autotools-dev from Build-Depends: It is no more
+    needed since a long time now.
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri, 22 Jun 2012 10:58:27 +0200
+
+ccid (1.4.6-2) unstable; urgency=low
+
+  * use debhelper version 9 to get automatic hardening
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri, 06 Apr 2012 20:28:06 +0200
+
+ccid (1.4.6-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Standards-Version: 3.9.2 -> 3.9.3. No change needed.
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri, 06 Apr 2012 18:22:11 +0200
+
+ccid (1.4.5-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Tue, 11 Oct 2011 22:34:30 +0200
+
+ccid (1.4.4-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Standards-Version: 3.9.1 -> 3.9.2. No change needed.
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri, 13 May 2011 14:30:29 +0200
+
+ccid (1.4.3-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sat, 02 Apr 2011 21:07:20 +0200
+
+ccid (1.4.2-2) unstable; urgency=low
+
+  * Fix "circular dependency with pcscd and libpcsclite1" remove binaries
+    Kobil_mIDentity_switch and RSA_SecurID_getpasswd so the package do not
+    depends on libpcsclite1 (Closes: #612972)
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 23 Feb 2011 08:48:30 +0100
+
+ccid (1.4.2-1) unstable; urgency=low
+
+  * New upstream release
+  * Fix "New Neowave Weneo card version with new productId" support is now
+    included upstream (Closes: #570167)
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 23 Feb 2011 00:13:03 +0100
+
+ccid (1.4.1-1) experimental; urgency=low
+
+  * New upstream release
+  * debian/control: Build-Depends: libpcsclite-dev (>= 1.6.5~). It is needed
+    by the new upstream version.
+  * debian/libccid.udev: install the udev rule at priority 92 to be _after_
+    91-permissions.rules
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sat, 04 Dec 2010 22:56:27 +0100
+
+ccid (1.4.0-1) experimental; urgency=low
+
+  * New upstream release
+  * debian/rules: use dh (nearly) minimal rules
+  * debian/control: remove reader list since it is no more up to date
+  * debian/post{inst,rm}: removed. No need to call update-reader.conf any
+    more since pcscd will parse the /etc/reader.conf.d/ directory
+  * debian/control: remove references to pcscd 1.2.9-beta9-1 in Recommands and
+    Conflicts since stable already have pcscd 1.4.102
+  * debian/control: Standards-Version: 3.8.4 -> 3.9.1. No changes needed.
+  * debian/control: Build-Depends: libusb-1.0-0-dev instead of libusb-dev
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 04 Aug 2010 15:14:12 +0200
+
+ccid (1.3.13-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri, 04 Jun 2010 15:56:41 +0200
+
+ccid (1.3.12-1) experimental; urgency=low
+
+  * New upstream release
+  * debian/control: Build-Depends: libpcsclite-dev (>= 1.6.0) instead of
+    libpcsclite-dev (>= 1.3.3)
+  * debian/control: Standards-Version: 3.8.2 -> 3.8.4. No change needed
+  * upgrade to debhelper v7
+  * debian/source/format: use "3.0 (quilt)" format
+  * Fix "Lots of logging with no card in SCM SCR3310" fixed upstream
+    (Closes: #555837)
+  * Fix "USB-ICC version A (T=0) support" Better support if ICCD-A included
+    upstream (Closes: #503638)
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Thu, 13 May 2010 14:32:15 +0200
+
+ccid (1.3.11-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/watch: new format
+  * Fix "Please add Panasonic ZU-9PS" included upstream
+    (Closes: #537317)
+  * debian/control: Standards-Version: 3.7.3 -> 3.8.2, add support of noopt,
+    nostrip and parallel= in DEB_BUILD_OPTIONS
+  * debian/rules: copy config.{sub,guess} at the correct place (instead of in
+    a non-existant build/ directory)
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Tue, 28 Jul 2009 23:31:51 +0200
+
+ccid (1.3.10-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sat, 07 Mar 2009 16:53:15 +0100
+
+ccid (1.3.9-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/watch: use .bz2 extension instead of .gz
+  * debian/{postinst,postrm}: remove absolute path from update-reader.conf
+    lintian warning: command-with-path-in-maintainer-script
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sun, 15 Feb 2009 15:31:00 +0100
+
+ccid (1.3.8-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri, 27 Jun 2008 11:55:14 +0200
+
+ccid (1.3.7-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sun, 08 Jun 2008 11:05:08 +0200
+
+ccid (1.3.6-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: add Vcs-Svn: and Vcs-Browser: now the packaging is hosted
+    on alioth/collab-maint
+  * debian/rules:
+   - do not set CFLAGS since dpkg-dev (>= 1.14.17) does it for me
+   - remove --enable-udev since pcscd now uses libhal instead of libusb
+   - do not install the udev file
+  * debian/control: remove Depends: udev
+    Closes: #466134 "libccid: excessive dependency on udev"
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 30 Apr 2008 16:32:53 +0200
+
+ccid (1.3.5-1) unstable; urgency=low
+
+  * New upstream release
+   - Closes: #466710 "libccid: Kobil mIDentity Switch is broken"
+  * debian/control: Build-Depends: libpcsclite-dev (>= 1.3.3) instead of (>=
+    1.3.3-1) to avoid a build-depends-on-1-revision build-depends: lintian
+    warning
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri, 22 Feb 2008 15:03:07 +0100
+
+ccid (1.3.4-1) unstable; urgency=low
+
+  * New upstream release
+   - really Closes: #463977 "libccid.rules causes udev to delay for 10s when
+   syncing palm device"
+  * debian/rules: rename /usr/share/doc/ccid/ in /usr/share/doc/libccid/
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri, 08 Feb 2008 14:50:12 +0000
+
+ccid (1.3.3-1) unstable; urgency=low
+
+  * New upstream release
+   - Closes: #463977 "libccid.rules causes udev to delay for 10s when syncing
+   palm device"
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 06 Feb 2008 18:27:16 +0100
+
+ccid (1.3.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Tue, 22 Jan 2008 20:36:29 +0100
+
+ccid (1.3.1-3) unstable; urgency=low
+
+  * debian/control:
+   - remove XS-Vcs-Browser: and Xs-Vcs-Svn: since they are for Debian package
+     and not for upstream
+   - Suggests: pcmciautils. Closes: #459246 "libccid: please Suggests:
+     pcmciautils"
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri, 11 Jan 2008 15:13:35 +0100
+
+ccid (1.3.1-2) unstable; urgency=low
+
+  * debian/rules: create a symlink for libccidtwin.so
+    Closes: Bug#457657 "libccid: please provide a general symlink for
+    libccidtwin.so"
+  * debian/control: Standards-Version: 3.7.2 -> 3.7.3. No change needed
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Mon, 31 Dec 2007 16:29:19 +0100
+
+ccid (1.3.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri, 16 Nov 2007 15:25:46 +0100
+
+ccid (1.3.0-3) unstable; urgency=low
+
+  * debian/watch: update URL to make it work again. Closes: #449691: "ccid:
+    debian/watch fails to report upstream's version"
+  * debian/control: use Homepage: field
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed, 07 Nov 2007 16:29:22 +0000
+
+ccid (1.3.0-2) unstable; urgency=low
+
+  * debian/rules: use dh_installudev to install the udev file
+  * debian/control: Build-Depends: debhelper (>= 5.0.45) to have use
+    dh_installudev
+  * debian/compat: set to 5
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sat, 02 Jun 2007 21:09:52 +0200
+
+ccid (1.3.0-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: 
+   - upgrade Standards-Version: 3.6.2 -> 3.7.2. No change needed
+   - add XS-Vcs-Browser: and Xs-Vcs-Svn: fields
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Thu, 10 May 2007 16:52:22 +0200
+
+ccid (1.2.1-1) unstable; urgency=low
+
+  * New upstream release
+   - now supports the O2Micro Oz7762
+   Closes: #381689 "should not barf on Oz776 firmware"
+   Closes: #381834 "spams syslog when no card is inserted"
+   Closes: #385072 "pcscd: excessive amount of logging"
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sat, 27 Jan 2007 18:11:46 +0100
+
+ccid (1.2.0-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control:
+   - Build-Depends: libpcsclite-dev (>= 1.3.3-1)
+   - libccid Depends: udev
+  * debian/rules: use --enable-udev and install the udev rule file
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Thu, 25 Jan 2007 21:23:28 +0100
+
+ccid (1.1.0-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/rules: add --enable-twinserial to ./configure
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri, 11 Aug 2006 20:45:32 +0200
+
+ccid (1.0.1-2) unstable; urgency=low
+
+  * debian/copyright:
+   - update licence from GPL-2 to LGPL-2.1
+   - add all the copyright owner names
+  * debian/rules: do not check for nostrip in $(DEB_BUILD_OPTIONS) since we
+    use dh_strip with this test included
+  * debian/control: update the list of supported smart card readers
+  * debian/{rules,control}: do not use dpatch since we have no patch to apply
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sun, 23 Apr 2006 20:29:01 +0200
+
+ccid (1.0.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sat, 22 Apr 2006 17:42:11 +0200
+
+ccid (1.0.0-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/README.Debian: change recommendation from hotplug to udev
+  * debian/control: update the list of supported smart card readers
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri,  3 Mar 2006 22:09:10 +0100
+
+ccid (0.9.4-4) unstable; urgency=low
+
+  * debian/control: remove the Depends: pcscd to avoid a circular dependency
+    with pcscd. See http://lists.debian.org/debian-devel/2006/01/msg00515.html
+    we now have:
+     Recommends: pcscd (>= 1.2.9-beta9-1)
+     Conflicts: pcscd (<< 1.2.9-beta9-1)
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri, 10 Feb 2006 16:20:34 +0100
+
+ccid (0.9.4-3) unstable; urgency=low
+
+  * debian/rules: move Info.plist from from
+    /usr/lib/pcsc/drivers/ifd-ccid.bundle/Contents/Info.plist to
+    /etc/libccid_Info.plist to make it a conffile so that user modifications
+    are not lost with an upgrade
+  * debian/control: Standards-Version: 3.6.2 -> 3.6.2, no change
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri,  2 Dec 2005 17:13:51 +0100
+
+ccid (0.9.4-2) unstable; urgency=low
+
+  * debian/control:
+    - libccid Depends: on pcscd (>= 1.2.9-beta9-1)
+    - remove Recommends: hotplug since udev should be used instead
+    - add some more readers in the long description
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sun, 27 Nov 2005 21:18:54 +0100
+
+ccid (0.9.4-1) unstable; urgency=low
+
+  * New upstream release
+    - Closes: #326928 "Incorrect spelling in name"
+    - remove debian/patches/22_ifdhandler.c.dpatch now included upstream
+  * debian/control: Build-Depends on libpcsclite-dev (>= 1.2.9-beta9-1)
+    instead of beta8
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sun, 27 Nov 2005 21:09:42 +0100
+
+ccid (0.9.3-2) unstable; urgency=low
+
+  * debian/patches/22_ifdhandler.c.dpatch: #include <PCSC/reader.h>
+    Closes: #337252 "FTBFS: 'SCARD_ATTR_ATR_STRING' undeclared"
+  * debian/control: Build-Depends: libpcsclite-dev (>= 1.2.9-beta8-1). This
+    new version has the defines in PCSC/reader.h instead of PCSC/ifdhandler.h
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Fri,  4 Nov 2005 18:35:50 +0100
+
+ccid (0.9.3-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Tue, 15 Mar 2005 19:58:47 +0100
+
+ccid (0.9.2-3) unstable; urgency=high
+
+  * urgency high since the package is unusable with the libusb in sarge
+  * debian/patches/01_ccid_usb.c.dpatch: avoid a crash when the reader is
+    removed because of a change in libusb
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sat,  5 Mar 2005 12:20:00 +0100
+
+ccid (0.9.2-2) unstable; urgency=medium
+
+  * debian/control: Build-Depends on pkg-config
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sun, 15 Aug 2004 23:47:57 +0200
+
+ccid (0.9.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * urgency=medium because this new release fixes many important bugs and the
+    version now in testing (0.4.1-1) is (very) old and very limited.
+    The present version should be released with sarge.
+  * debian/patches: patches included upstream so removed from the Debian
+    package
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sun, 15 Aug 2004 22:56:56 +0200
+
+ccid (0.9.1-2) unstable; urgency=low
+
+  * 21_ifdhandler.c.dpatch: update IFDHControl() API. Closes: #263328
+  * debian/control: Build-Depends: libpcsclite-dev (>= 1.2.9-beta5-1) instead
+    of 1.2.9-beta3-1 to use the new IFDHControl() API.
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Tue,  3 Aug 2004 22:51:04 +0200
+
+ccid (0.9.1-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control:
+   - Build-Depends: libpcsclite-dev (>= 1.2.9-beta3-1), dpatch
+   - update the list of supported readers
+  * debian/patches:
+   - 10_Info.plist.dpatch : replace VENDOR pattern by MAGIC_VENDOR since we
+     also have a VENDOR in IOCTL_SMARTCARD_VENDOR_IFD_EXCHANGE and then a
+     collision.
+   - 20_ccid_serial.c.dpatch: OpenSerialByName(): perform a command (get the
+     reader firmware) to be sure a GemPC Twin (serial or pcmcia) reader is
+     connected
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sat,  3 Jul 2004 16:11:31 +0200
+
+ccid (0.4.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Sun, 15 Feb 2004 14:09:18 +0100
+
+ccid (0.3.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Wed,  5 Nov 2003 19:36:49 +0100
+
+ccid (0.3.1-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/README.Debian: important notes about the GemPC Twin driver when
+    connected to a serial port. The serial port configuration is not
+    automatic.
+  * debian/postinst, postrm: regenerate /etc/reader.conf using
+    update-reader.conf(8) when installing or removing the package
+  * debian/control:
+   - Build-Depends on autotools-dev
+   - modified homepage URL
+   - add a list of supported readers
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Tue, 23 Sep 2003 22:35:19 +0200
+
+ccid (0.2.0-2) unstable; urgency=low
+
+  * debian/control: add flex to Build-Depends:. Closes: #208274
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Tue,  2 Sep 2003 21:07:12 +0200
+
+ccid (0.2.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Ludovic Rousseau <rousseau@debian.org>  Tue, 26 Aug 2003 23:53:13 +0200
+

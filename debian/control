@@ -1,0 +1,28 @@
+Source: ccid
+Section: libs
+Priority: extra
+Maintainer: Ludovic Rousseau <rousseau@debian.org>
+Build-Depends: debhelper (>= 9~), libusb-1.0-0-dev, libpcsclite-dev (>= 1.8.3~), flex, pkg-config
+Standards-Version: 3.9.8
+Vcs-Svn: svn://anonscm.debian.org/collab-maint/deb-maint/ccid/trunk
+Vcs-Browser: https://anonscm.debian.org/viewvc/collab-maint/deb-maint/ccid/trunk/
+Homepage: http://pcsclite.alioth.debian.org/ccid.html
+
+Package: libccid
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: pcsc-ifd-handler
+Suggests: pcmciautils
+Description: PC/SC driver for USB CCID smart card readers
+ This library provides a PC/SC IFD handler implementation for the USB smart
+ card drivers compliant to the CCID protocol.
+ .
+ This package is needed to communicate with the CCID smartcard readers through
+ the PC/SC Lite resource manager (pcscd).
+ .
+ For an exhaustive list of supported reader see
+ http://pcsclite.alioth.debian.org/section.html
+ .
+ This driver also supports the GemPC Twin connected to a serial port and
+ the GemPC Card (PCMCIA, through the suggested pcmciautils package) and
+ Gemplus GemPC Express (Express54 card).

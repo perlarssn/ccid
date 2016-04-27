@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+DESTDIR=debian/libccid
+
+%:
+	dh $@ --parallel
+
+override_dh_auto_configure:
+	# add support of the GemPC Twin in serial mode
+	dh_auto_configure -- --enable-twinserial --enable-serialconfdir=/etc/reader.conf.d
+
+override_dh_auto_install:
+	dh_auto_install
+
+	# move the configuration file in /etc and create a symbolic link
+	mv $(DESTDIR)/usr/lib/pcsc/drivers/ifd-ccid.bundle/Contents/Info.plist $(DESTDIR)/etc/libccid_Info.plist
+	ln -s /etc/libccid_Info.plist $(DESTDIR)/usr/lib/pcsc/drivers/ifd-ccid.bundle/Contents/Info.plist
+
+override_dh_installudev:
+	dh_installudev --priority=92
